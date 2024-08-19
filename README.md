@@ -1,0 +1,1 @@
+This is a chrome extension that mapping "delete" to "Don't recommend this channel" in YouTube Shorts. 

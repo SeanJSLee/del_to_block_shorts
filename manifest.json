@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+
+  "name": "Del to Don't recommend",
+
+  "version": "0.1",
+
+  "description": "'Delete' key to the 'Don't recommend this channel' button on YouTube Shorts pages, or use the Block button at bottom right.",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/shorts/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "icons": {
+      "16": "logo16.png",
+      "32": "logo32.png",
+      "48": "logo48.png",
+      "128": "logo128.png"
+    },
+
+  "author" : {
+    "email":"SeanJSLee@gmail.com"
+  }
+
+  
+}
