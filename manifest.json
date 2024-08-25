@@ -3,13 +3,11 @@
 
   "name": "Del to Don't recommend",
 
-  "version": "0.1",
+  "version": "0.1.1",
 
   "description": "'Delete' key to the 'Don't recommend this channel' button on YouTube Shorts pages, or use the Block button at bottom right.",
 
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": [],
 
   "content_scripts": [
     {
@@ -27,7 +25,9 @@
 
   "author" : {
     "email":"SeanJSLee@gmail.com"
-  }
+  },
+
+  "key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk2cydjOM2g5QE1LDLnxJd6sOCgC/AMUTBanyHflM5+G4yr2PxmmDopkKm+EQgFEH+G3/9dDLoQg9ZtsIozQ/xh+VvwUdVSpboGan1zXLpzw8JE+QunLB4o6Rl2FYVB9heeu9O0oOJ3q2cM6x7Thi1cmASQDn7q/+0JeJZ+3s54V1M3rX0VQEaC++iyeCEyhlZ0se+yvUf2z7ZogQLwbcRC633ditmiUheDoDyB2DcFiUS65p4UvxVijfWr2/Uro5S6R6L7lBHt02lGyD3g0ucHlWO54BU/1x4rxCXGQZ4sL2noYcqxLvwVMxdX+X1Oa7XcbbEZh5ZhVPD6/HvdvYsQIDAQAB"
 
   
 }
