@@ -2,20 +2,20 @@
 function triggerDontRecommend() {
     // Find and click the "More" button
     let moreButton = document.evaluate(
-      "/html/body/ytd-app/div[1]/ytd-page-manager/ytd-shorts/div[3]/div[2]/ytd-reel-video-renderer[1]/div[5]/ytd-reel-player-overlay-renderer/div[2]/div/div[4]/ytd-menu-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]",
+      "//*[@id='button-shape']/button/yt-touch-feedback-shape/div",
       document,
       null,
       XPathResult.FIRST_ORDERED_NODE_TYPE,
       null
     ).singleNodeValue;
-  
+
     if (moreButton) {
       moreButton.click();
   
       // Wait for the menu to appear and then click "Don't recommend this channel"
       setTimeout(function() {
         let dontRecommendButton = document.evaluate(
-          "/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-menu-popup-renderer/tp-yt-paper-listbox/ytd-menu-service-item-renderer[3]/tp-yt-paper-item/yt-formatted-string",
+          "//*[@id='items']/ytd-menu-service-item-renderer[3]/tp-yt-paper-item/yt-formatted-string",
           document,
           null,
           XPathResult.FIRST_ORDERED_NODE_TYPE,
